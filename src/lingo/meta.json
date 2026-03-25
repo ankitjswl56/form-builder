@@ -1,0 +1,61 @@
+{
+  "version": 0.1,
+  "files": {
+    "components/Builder/Canvas.tsx": {
+      "scopes": {
+        "4/declaration/0/init/body/2/argument/1/1/expression/alternate/0/body/3": {
+          "type": "element",
+          "hash": "1409f9e98be0e57da01149ada6e30953",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "({field.type})"
+        },
+        "4/declaration/0/init/body/2/argument/1/1/expression/consequent": {
+          "type": "element",
+          "hash": "d95178685f503688ba387ba9840a08a8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Drop fields here to build your form"
+        }
+      }
+    },
+    "components/Builder/Sidebar.tsx": {
+      "scopes": {
+        "1/declaration/0/init/body/0/argument/1": {
+          "type": "element",
+          "hash": "aad2b6dea6566a565b91173043c74c08",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Builder Tools"
+        },
+        "1/declaration/0/init/body/0/argument/3-label": {
+          "type": "attribute",
+          "hash": "a56a83c1cdd7d18704b9fecf2c893744",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Text Field"
+        },
+        "1/declaration/0/init/body/0/argument/5-label": {
+          "type": "attribute",
+          "hash": "6e84be197f39f012cea264f9f9ab550f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Email Field"
+        },
+        "1/declaration/0/init/body/0/argument/7-label": {
+          "type": "attribute",
+          "hash": "454e449e4f48a07d068e4a929453476a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Textarea Field"
+        }
+      }
+    }
+  }
+}

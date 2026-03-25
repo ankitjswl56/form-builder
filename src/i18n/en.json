@@ -1,0 +1,11 @@
+{
+  "builder": {
+    "tools": "Builder Tools",
+    "dropzone": "Drop fields here to build your form"
+  },
+  "fields": {
+    "text": "Text Field",
+    "email": "Email Field",
+    "textarea": "Textarea Field"
+  }
+}
