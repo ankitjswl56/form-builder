@@ -1,11 +1,10 @@
-export type FieldType = 'text' | 'email' | 'textarea' | 'select';
+export type FieldType = 'text' | 'email' | 'tel' | 'checkbox' | 'select' | 'radio' | 'textarea';
 
 export interface FormField {
   id: string;
+  name: string;
   type: FieldType;
-  label: string;
-  placeholder?: string;
-  required: boolean;
+  validation: boolean;
 }
 
 export interface DragItem {

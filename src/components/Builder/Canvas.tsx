@@ -12,8 +12,8 @@ export const Canvas = () => {
       addField({
         id: nanoid(),
         type: item.type,
-        label: `New ${item.type} field`,
-        required: false,
+        name: `New ${item.type}`,
+        validation: false,       
       });
     },
     collect: (monitor) => ({
@@ -42,12 +42,11 @@ export const Canvas = () => {
                 className="p-4 border border-gray-200 rounded-md bg-white hover:border-blue-300 transition-colors group relative"
               >
                 <div className="flex items-center justify-between mb-2">
-                  <label className="font-semibold text-gray-800">{field.label}</label>
+                  <label className="font-semibold text-gray-800">{field.name}</label>
                   <span className="text-xs font-mono text-gray-400 bg-gray-100 px-2 py-1 rounded">
                     {field.type}
                   </span>
                 </div>
-                {/* Visual placeholder for the actual input */}
                 <div className="h-10 w-full bg-gray-50 border border-gray-200 rounded pointer-events-none"></div>
               </div>
             ))}
